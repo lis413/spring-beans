@@ -11,17 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
 
-    @Bean(name="Dog" )
-    public Dog getDog(){
-        Dog dog = new Dog();
-        return dog;
-    }
 
-    @Bean(name="Timer")
-    public Timer getTimer(){
-        Timer timer = new Timer();
-        return timer;
-    }
 
 }
 
